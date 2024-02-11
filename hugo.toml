@@ -30,24 +30,19 @@ theme = "hugo-sustain"
   #RSS           = "/blog/index.xml"
 
 ## Main Menu
-[[menu.main]]
-  name = "My blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
+
 [[menu.main]]
   name = "Mes projects"
   identifier = "projects"
   weight = 200
   url = "/projects/"
 [[menu.main]]
-  name = "Un resume"
-  identifier = "resume"
+  name = "experiences"
+  identifier = "experiences"
   weight = 300
-  url = "/resume/"
-
+  url = "/experiences/"
 [[menu.main]]
-  name = "Mon cv"
-  identifier = "cv"
-  weight = 400
-  url = "/cv/"
+  name = "formations"
+  identifier = "formations"
+  weight = 300
+  url = "/formations/"
