@@ -1,0 +1,16 @@
+name: Projects
+source:
+  - icon: fa fa-github
+    name: Wallet Ethereum
+    description: Un wallet Ethereum en React et Node.js qui permet de gérer des comptes Ethereum, de transférer des ethers et de voir l'historique des transactions.
+    url: https://github.com/Elpidio16/portefeuille_ethereum
+
+  - icon: fa fa-github
+    name: Mini agenda
+    description: Un mini agenda en Java natif qui permet de gérer des tâches quotidiennes en incluant un système d'alarme de rappel, ainsi qu'un système d'authentification par empreinte digitale.
+    url: https://github.com/Elpidio16/mini_agenda
+
+  - icon: fa fa-github
+    name: Mini PKI - in progress
+    description: Ce projet informatique consiste a créer une technologique similaire à une «mini PKI», Public Key Infrastructure, ou Infrastructure (de gestion) de clés publiques permettant de mettre en oeuvre des communications sécurisés entre deux utilisateurs.
+    url: https://github.com/Elpidio16/mini_pki

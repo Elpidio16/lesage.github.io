@@ -1,3 +1,53 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://lesage.github.io/"
+languageCode = "en-US fr-FR"
+title = "Elpidio LISSASSI"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/elpidio.jpg"
+  author = "Elpidio LISSASSI"
+  description = "Mon blog personnel"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "Elpidio16"
+  Email         = "elpidiolissassi2@gmail.com"
+  Twitter       = "@ElpidioLesage"
+  LinkedIn      = "elpidio koffi lissassi"
+  #Stackoverflow = "username"
+  #Medium        = "username"
+  #Telegram      = "username"
+  #RSS           = "/blog/index.xml"
+
+## Main Menu
+[[menu.main]]
+  name = "My blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "Mes projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "Un resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
+
+[[menu.main]]
+  name = "Mon cv"
+  identifier = "cv"
+  weight = 400
+  url = "/cv/"
