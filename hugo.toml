@@ -36,13 +36,11 @@ theme = "hugo-sustain"
   identifier = "projects"
   weight = 200
   url = "/projects/"
-[[menu.main]]
-  name = "experiences"
-  identifier = "experiences"
-  weight = 300
-  url = "/experiences/"
-[[menu.main]]
-  name = "formations"
-  identifier = "formations"
-  weight = 300
-  url = "/formations/"
+
+
+# [[menu.main]]
+#   name = "experiences"
+#   identifier = "experiences"
+#   weight = 300
+#   url = "/experiences/"
+

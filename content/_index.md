@@ -9,9 +9,8 @@ I love all things computer science and maths.
 
 Have a look at some of my working [projects].
 
-For more check out my academic & professional [resume].
+For more contact me at [@username] or by [email].
 
-Contact me at [@username] or by [email].
 
 
 
